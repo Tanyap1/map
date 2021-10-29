@@ -1,4 +1,7 @@
 
+//okkkkk was trying to do the assignment base on previouse week didnot understand, used this  https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API
+
+
 function getLocation () { //get location
 	if ( navigator.geolocation ) {
 		navigator.geolocation.getCurrentPosition ( function ( position ) {
