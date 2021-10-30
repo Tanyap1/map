@@ -9,13 +9,13 @@ function getLocation () { //get location
 			initialize ();
 		}, onError );
 	} else {
-		center = new google.maps.LatLng ( 40.758895,-73.985131 ); //if not located just put the lat,long
+		center = new google.maps.LatLng ( 44.3777024,-79.7310976 ); //if not located just put the lat,long
 		initialize ();
 	}
 }
 
 function onError ( error ) {
-	center = new google.maps.LatLng ( 40.758895,-73.985131 );
+	center = new google.maps.LatLng ( 44.3777024,-79.7310976  );
 	initialize ();
 }
 	
